@@ -43,7 +43,3 @@ class Display:
         for pos in empty_cells:
             print(f"Выбор в ячейку {pos}: ")
             self._game_board.set_cell(pos, self.select_cell())
-
-
-if __name__ == "__main__":
-    Display()
